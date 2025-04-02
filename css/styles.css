@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 0.2fr 2fr 0.2fr;
+    gap: 20px;
+    
+ 
+}
+.grid-item{
+    background-color: black;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    
+    text-align: justify;
+    text-justify: auto;
+    margin: 10px;
+}
+.carousel{
+    margin-right: 12px;
+    margin-top: 10px;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 1); /* Semi-transparent dark */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+  
+
+p, h1 {
+    color: white;
+}
+body {
+    background: linear-gradient(to right, #333333 0%, #7f7f7f 100%);
+}
