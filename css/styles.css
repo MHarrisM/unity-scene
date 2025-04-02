@@ -26,7 +26,10 @@
   background-color: rgba(0, 0, 0, 1); /* Semi-transparent dark */
   border-radius: 5px; /* Optional: rounded corners */
 }
-  
+#feature-tech {
+    color: white;
+}
+
 
 p, h1 {
     color: white;
